@@ -37,6 +37,11 @@ ul span {
 li.black {
 	color: black;
 }
+
+mark {
+	color: tomato;
+}
+
 h2 {
 	color: red;
 }
