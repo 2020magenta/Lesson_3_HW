@@ -1,0 +1,86 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+ul {
+	color: chartreuse;
+}
+ul span {
+	color: chocolate;
+}
+li.black {
+	color: black;
+}
+h2 {
+	color: red;
+}
+
+.part__one.text {
+	color: seagreen;
+}
+
+#first {
+	color: springgreen;
+}
+.blank > p {
+	color: violet;
+}
+p.father {
+	color: brown;
+}
+
+.part-2 .girl {
+	color: aqua;
+}
+.star + * {
+	color: teal;
+}
+.part-2.father {
+	color: steelblue;
+}
+.text span {
+	color: salmon;
+}
+.text {
+	color: slategray;
+}
+/*закоментирован, чтобы проверить как работает 
+вложенность и приоритетность*/
+/*
+.blank {
+	color: black;
+}
+*/
+
+.fairy-tale.text {
+	color: goldenrod;
+}
+.link {
+	color: magenta;
+}
